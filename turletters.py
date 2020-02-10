@@ -118,6 +118,7 @@ def turtleLetter(letter,tur):
 	tur.fd(15)
 	tur.left(90)
 	tur.fd(20)
+	#tur.right(180)
 
 	    pass
   elif letter == "G":
