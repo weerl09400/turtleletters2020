@@ -105,6 +105,7 @@ def turtleLetter(letter,tur):
         
 	
     elif letter == "F":
+
 	tur.setheading(0)
 	tur.pd()
 	tur.fd(30)
@@ -119,6 +120,7 @@ def turtleLetter(letter,tur):
 	tur.left(90)
 	tur.fd(20)
 	#tur.right(180)
+
 
 	    pass
   elif letter == "G":
@@ -243,30 +245,90 @@ def turtleLetter(letter,tur):
         tur.fd(50)
     elif letter == "P":
 	tur.setheading(0)
-        tur.pd
-        tur.fd(25)
-        tur.right(90)
-        tur.fd(25)
-        tur.right(90)
-        tur.fd(25)
-        tur.right(90)
-        tur.fd(25)
-        tur.left(180)
-        tur.fd(50)
-        tur.left(180)
-        tur.fd(50)
-        tur.right(90)
-        tur.fd(25)		
+      tur.pd
+      tur.fd(25)
+      tur.right(90)
+      tur.fd(25)
+      tur.right(90)
+      tur.fd(25)
+      tur.right(90)
+      tur.fd(25)
+      tur.left(180)
+      tur.fd(50)
+      tur.left(180)
+      tur.fd(50)
+      tur.right(90)
+      tur.fd(25)		
     elif letter == "Q":
-	    pass
+	    tur.right(90)
+      tur.fd(60)
+      tur.left(90)
+      tur.fd(30)
+      tur.right(45)
+      tur.fd(30)
+      tur.right(180)
+      tur.fd(60)
+      tur.left(180)
+      tur.fd(30)
+      tur.left(140)
+      tur.fd(60)
+      tur.left(90)
+      tur.fd(30)
+      tur.right(180)
+      tur.fd(30
     elif letter == "R":
-	    pass
+	tur.pd()
+      tur.right(90)
+      tur.fd(60)
+      tur.left(180)
+      tur.fd(30)
+      tur.right(90)
+      tur.fd(30)
+      tur.left(90)
+      tur.fd(30)
+      tur.left(90)
+      tur.fd(30)
+      tur.left(90)
+      tur.fd(30)
+      tur.left(45)
+      tur.fd(50)
+      tur.left(180)
+      tur.fd(50)
+      tur.right(45)
+      tur.fd(30)
+      tur.right(90)
+      tur.fd(30)
     elif letter == "S":
-	    pass
+	tur.pu()
+      tur.right(90)
+      tur.fd(60)
+      tur.pd()
+      tur.left(90)
+      tur.fd(30)
+      tur.left(90)
+      tur.fd(30)
+      tur.left(90)
+      tur.fd(30)
+      tur.right(90)
+      tur.fd(30)
+      tur.right(90)
+      tur.fd(30)
     elif letter == "T":
-	    pass
+    	tur.fd(30)
+    	tur.right(90)
+    	tur.fd(60)
+    	tur.right(180)
+	    tur.fd(60)
+	    tur.right(90)
+	    tur.fd(30)
     elif letter == "U":
-	    pass
+	    tur.right(90)
+	    tur.fd(60)
+	    tur.left(90)
+	    tur.fd(30)
+	    tur.left(90)
+	    tur.fd(60)
+	    tur.right(90)
     elif letter == "V":
 	    tur.right(45)
 	    tur.fd(100)
